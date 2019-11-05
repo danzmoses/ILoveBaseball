@@ -1,5 +1,5 @@
-#ifndef SOUVENIR_H
-#define SOUVENIR_H
+#ifndef SOUVENIR_H_
+#define SOUVENIR_H_
 
 #include <string>
 
@@ -10,4 +10,4 @@ struct Souvenir
         double price;
 };
 
-#endif // SOUVENIR_H
+#endif  // SOUVENIR_H_

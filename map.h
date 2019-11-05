@@ -1,8 +1,11 @@
-#ifndef MAP_H
-#define MAP_H
+#ifndef MAP_H_
+#define MAP_H_
 
 #include "stadium.h"
 #include <iostream>
+#include <string>
+#include <vector>
+
 using namespace std;
 
 class Map
@@ -15,7 +18,9 @@ class Map
 
     public:
         Map();
+        ~Map();
         void expand();
+        void add_stadiums(string name, vector<string>connected_stadiums, vector<int>edges);
 };
 
-#endif // MAP_H
+#endif  // MAP_H_
