@@ -1,13 +1,12 @@
 #ifndef SOUVENIR_H
 #define SOUVENIR_H
 
-#include <string>
-
 struct Souvenir
 {
-    private:
-        std::string name;
-        double price;
+    std::string name;
+    double price;
+    Souvenir(std::string n, double p) { this->name = n;
+                                        this->price = p; }
 };
 
 #endif // SOUVENIR_H
