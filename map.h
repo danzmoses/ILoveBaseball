@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "stadium.h"
 #include <iostream>
 #include <fstream>
@@ -5,6 +6,16 @@
 #include <vector>
 #include <set>
 #include <algorithm>
+=======
+#ifndef MAP_H_
+#define MAP_H_
+
+#include "stadium.h"
+#include <iostream>
+#include <string>
+#include <vector>
+
+>>>>>>> 9bd10836bcb8c4a3e3e776121d1c4ea862696841
 using namespace std;
 
 #ifndef MAP_H
@@ -23,6 +34,7 @@ class Map
         ~Map();
         void expand();
         void add_stadiums(string name, vector<string>connected_stadiums, vector<int>edges);
+<<<<<<< HEAD
 
         void add_stadium(Stadium stadium);
 
@@ -45,6 +57,12 @@ class Map
 
         void load_stadiums(string file);
         void load_edges(string file);
+=======
+>>>>>>> 9bd10836bcb8c4a3e3e776121d1c4ea862696841
 };
 #endif // MAP_H
 
+<<<<<<< HEAD
+=======
+#endif  // MAP_H_
+>>>>>>> 9bd10836bcb8c4a3e3e776121d1c4ea862696841
